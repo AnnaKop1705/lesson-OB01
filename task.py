@@ -4,3 +4,11 @@
 # Реализуй функцию для добавления задач, отметки выполненных задач и вывода списка текущих
 # (не выполненных) задач.
 
+class Task():
+    def __init__(self, name, date):
+        self.name = name
+        self.date = date
+        self.status = False
+
+
+
